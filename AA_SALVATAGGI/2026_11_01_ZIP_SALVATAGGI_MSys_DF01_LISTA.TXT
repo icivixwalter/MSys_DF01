@@ -1,0 +1,60 @@
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive for archives:
+  0M Scan c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\                                                                             1 file, 5232599 bytes (5110 KiB)
+
+Listing archive: c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\2026_11_01_ZIP_SALVATAGGI_MSys_DF01.zip
+
+--
+Path = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\2026_11_01_ZIP_SALVATAGGI_MSys_DF01.zip
+Type = zip
+Physical Size = 5232599
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2025-08-30 17:25:30 ....A           56           55  AA________________________________________________________________________AA.txt
+2025-08-30 17:25:30 ....A           65           64  git_COMMIT.BAT
+2026-09-13 08:44:08 ....A           60           60  git_OpenGitHub.bat
+2026-11-01 18:46:08 ....A          999          493  git_OPEN_OVERLEAF.BAT
+2026-11-01 18:46:09 ....A          578          339  git_PULL.BAT
+2025-09-26 17:58:55 ....A           38           38  git_PUSH.BAT
+2026-11-01 18:46:10 ....A         3008         1240  git_STATUS+PULL+ADD+COMMIT+PUSH.BAT
+2026-11-01 18:46:12 ....A         2500          952  git_STATUS.BAT
+2026-11-01 18:47:56 D....            0            0  MDB
+2026-08-07 16:13:48 ....A           56           55  MDB\AA________________________________________________________________________AA.txt
+2026-08-07 16:13:48 ....A          396          176  MDB\CANC_TutteTabelleCollegate_PFunct_LOG.txt
+2026-08-07 16:13:48 ....A      3645440       848342  MDB\GE_MSys_DF01_COMANDI.mdb
+2026-08-07 16:13:48 ....A      1241088       278640  MDB\MSys_DF01.mdb
+2026-08-07 16:13:48 ....A          569          219  MDB\Msys_DF01_Mdl01_COLLEGA_COMANDI_LOG.txt
+2026-08-07 16:13:48 ....A           56           51  MDB\ZZ________________________________________________________________________ZZ.txt
+2026-08-29 17:54:02 D....            0            0  OBJECT
+2026-08-29 17:45:12 D....            0            0  OBJECT\HELP
+2026-08-07 16:13:50 ....A          550          277  OBJECT\HELP\APRI_GIORNALE_OPERAZIONI_PROGETTO_MSYS.MD
+2024-06-30 21:05:52 ....A       552958       523510  OBJECT\HELP\Cmd_Delete_TABLE_HELP.pdf
+2024-06-21 17:35:36 ....A       675462       618297  OBJECT\HELP\Cmd_PG_01_IMPORTA_TABLE_CancellaDati_HELP.pdf
+2024-06-23 13:10:46 ....A       158227       141136  OBJECT\HELP\HELP_Cmd_Delete_FORM.pdf
+2024-07-08 20:07:08 ....A       266519       252087  OBJECT\HELP\HELP_Cmd_Delete_MACRO.pdf
+2024-07-07 18:50:48 ....A       320472       303500  OBJECT\HELP\HELP_Cmd_Delete_MODULI.pdf
+2024-07-07 16:15:28 ....A       464855       435359  OBJECT\HELP\Help_Cmd_DELETE_REPORT.pdf
+2024-06-23 18:05:38 ....A       227423       211148  OBJECT\HELP\HELP_Cmd_Importa_FORM.pdf
+2024-07-07 16:26:00 ....A       348757       331380  OBJECT\HELP\HELP_Cmd_Importa_MODULI.pdf
+2024-07-07 14:39:28 ....A       348067       331661  OBJECT\HELP\HELP_Cmd_IMPORTA_QUERY.pdf
+2024-06-21 15:33:34 ....A       130696       113880  OBJECT\HELP\HELP_Cmd_Importa_TABELLE.PDF
+2024-07-07 14:31:56 ....A       325319       309709  OBJECT\HELP\Help_DELETE_QUERY.pdf
+2024-07-07 16:05:50 ....A       268146       252177  OBJECT\HELP\Help_IMPORTA_REPORT.pdf
+2024-09-12 19:00:18 ....A       274794       257983  OBJECT\HELP\HELP_Msys_DF11_PROGETTI_Frm00_M01_GESTIONE.pdf
+2026-11-01 18:12:31 D....            0            0  OBJECT\MODULES
+2026-08-07 16:13:48 ....A        10668         2221  OBJECT\MODULES\COLLEGA_Mcr_GEST_MENU_TB01_VOCI.MD
+2026-08-07 16:13:48 ....A        11815         2495  OBJECT\MODULES\OLD_COLLEGA.MD
+2026-11-01 18:23:30 ....A          144          115  Project_MSys_DF01_COMANDI.sublime-project
+2026-11-01 18:46:57 ....A        17798         2820  Project_MSys_DF01_COMANDI.sublime-workspace
+2026-08-07 16:13:48 ....A         2477          929  README_DF01_COMANDI.MD
+2023-10-22 15:46:06 ....A           56           51  ZIP_7ZIP_________________________________________________________________ZZ.txt
+2024-05-18 10:40:44 ....A         4180         1331  Zip_N70_CRIPTA.bat
+2024-05-18 10:40:44 ....A         4735         1440  Zip_N70_DECODIFICA.bat
+2026-11-01 18:32:10 ....A          795          301  Zip_N70_ElencoFile.txt
+2024-04-09 18:30:24 ....A          138           69  Zip_N70_ElencoFileESCLUSI.txt
+2025-08-30 17:25:33 ....A           56           51  ZZ________________________________________________________________________ZZ.txt
+------------------- ----- ------------ ------------  ------------------------
+2026-11-01 18:47:56            9310016      5224651  39 files, 4 folders
