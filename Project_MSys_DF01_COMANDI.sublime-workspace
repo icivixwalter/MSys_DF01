@@ -15,16 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Zip_N70_ElencoFile.txt",
-			"file_size": 795,
-			"file_write_time": 134380279303821613,
-			"settings":
-			{
-				"buffer_size": 773,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -86,11 +76,11 @@
 	],
 	"file_history":
 	[
+		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/git_PULL.BAT",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/Project_MSys_DF01_COMANDI.sublime-workspace",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/git_STATUS.BAT",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/git_STATUS+PULL+ADD+COMMIT+PUSH.BAT",
-		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/git_PULL.BAT",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/git_OPEN_OVERLEAF.BAT",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/ZIP_RAR_INCREMENTALE.BAT",
 		"/C/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_DF01/a.txt",
@@ -217,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 31.2
+		"height": 44.8
 	},
 	"find_in_files":
 	{
@@ -232,6 +222,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DF00",
 			"_MSys_GE_FILE",
 			"c:\\CASA\\LINGUAGGI\\ACCESS\\PROGETTI_MDB\\MSYS\\MSys_DF01\\",
 			"c:\\CASA\\LINGUAGGI\\ACCESS\\PROGETTI_MDB\\MSYS\\MSys_GE_FILE\\",
@@ -262,42 +253,12 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Zip_N70_ElencoFile.txt",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 773,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 31.2
+		"height": 32.0
 	},
 	"input":
 	{
@@ -337,7 +298,7 @@
 	"project": "Project_MSys_DF01_COMANDI.sublime-project",
 	"replace":
 	{
-		"height": 59.2
+		"height": 60.8
 	},
 	"save_all_on_build": false,
 	"select_file":

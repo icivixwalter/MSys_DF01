@@ -3,6 +3,8 @@
       il progetto gestisce i comandi della tabella DF01 PER LA GESTIONE DEI COMANDI
 
 
+# IL CODICE DEL PROGETTO codice ----> $Project$Msys$DF01.00_(PROGETTO DF01 GESTIONE COMANDI)
+
 
 # AGGIORNAMENTI
 
