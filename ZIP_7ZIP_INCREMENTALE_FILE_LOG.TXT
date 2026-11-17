@@ -31,3 +31,76 @@
 [08/11/2026 21:47:40] 03.01 - FILE_S                      = ZIP_SALVATAGGI_MSys_DF01
 [08/11/2026 21:47:40] 03.01 - LISTA_FILE_S                = Zip_N70_ElencoFile.txt
 [08/11/2026 21:47:40] 03.01 - CARTELLA_SALVATAGGI_S       = AA_SALVATAGGI
+[08/11/2026 21:47:40] 04.00 - TIPI FILE DA ARCHIVIARE (BLOCCATO, NON USATO)
+[08/11/2026 21:47:40] 04.02 - TIPO_FILE_S = *.AUX *GZ *.LOG *.OUT *.TEX *.Tws *.CLASS *.EXE *HTLM *.IML *.JAR *.JAVA *.LOG *.MF *.LNK *.XML *.TEX *.TWS *.TXT *BAT *.MDB *.XLS *.PDF
+[08/11/2026 21:47:40] 05.00 - GESTIONE DATA CORRENTE
+[08/11/2026 21:47:40] 05.01 - wmic non disponibile, uso PowerShell come fallback
+[08/11/2026 21:47:41] 05.02 - MyDate  = [20261108214741]
+[08/11/2026 21:47:41] 05.02 - ANNO_S  = [2026]
+[08/11/2026 21:47:41] 05.02 - MESE_S  = [11]
+[08/11/2026 21:47:41] 05.02 - GIORNO_S= [08]
+[08/11/2026 21:47:41] 05.02 - TODAY   = [2026_11_08]
+[08/11/2026 21:47:41] 05.03 - TODAY valida
+[08/11/2026 21:47:41] 06.00 - CHIAMO DECODIFICA
+[08/11/2026 21:47:41] 06.01 - ANNO_S = [2026]
+[08/11/2026 21:47:41] 06.02 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01
+[08/11/2026 21:47:41] 06.02 - Eseguo Zip_N70_DECODIFICA.bat
+[08/11/2026 21:47:51] 07.00 - SALVATAGGIO 7ZIP
+[08/11/2026 21:47:51] 07.01 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01
+[08/11/2026 21:47:51] 07.01 - PATH_DEST_S = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI
+[08/11/2026 21:47:51] 07.01 - TODAY = 2026_11_08
+[08/11/2026 21:47:51] 07.01 - FILE_S = ZIP_SALVATAGGI_MSys_DF01
+[08/11/2026 21:47:51] 07.01 - Lista file Zip_N70_ElencoFile.txt trovata OK
+[08/11/2026 21:47:51] 07.01 - OUT_ZIP = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_MSys_DF01
+[08/11/2026 21:47:51] 07.02 - Eseguo: 7z u -tzip -r \"c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_MSys_DF01\" @Zip_N70_ElencoFile.txt
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+
+WARNING: Percorso specificato non valido.
+\\ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva\
+
+
+WARNING: Percorso specificato non valido.
+\\............................................................................\
+
+4 folders, 39 files, 9314163 bytes (9096 KiB)
+
+Creating archive: c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_MSys_DF01.zip
+
+Add new data to archive: 4 folders, 39 files, 9314163 bytes (9096 KiB)
+
+
+Files read from disk: 39
+Archive size: 5233939 bytes (5112 KiB)
+
+Scan WARNINGS for files and folders:
+
+\\ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva\ : Percorso specificato non valido.
+\\............................................................................\ : Percorso specificato non valido.
+----------------
+Scan WARNINGS: 2
+[08/11/2026 21:47:51] 07.02 - 7-Zip OK con WARNING noto (ERRORLEVEL=1) - righe // nella lista
+[08/11/2026 21:47:51] 07.02 - I file sono stati archiviati correttamente, procedo
+[08/11/2026 21:47:51] 07.03 - Contenuto c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI dopo 7z:
+ Il volume nell'unit… C non ha etichetta.
+ Numero di serie del volume: 8A04-483D
+
+ Directory di c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI
+
+08/11/2026  21:47    <DIR>          .
+08/11/2026  21:47    <DIR>          ..
+01/11/2026  18:48         5.232.599 2026_11_01_ZIP_SALVATAGGI_MSys_DF01.GE614
+01/11/2026  18:48             4.792 2026_11_01_ZIP_SALVATAGGI_MSys_DF01_LISTA.TXT
+08/11/2026  21:47         5.233.939 2026_11_08_ZIP_SALVATAGGI_MSys_DF01.zip
+               3 File     10.471.330 byte
+               2 Directory  480.504.864.768 byte disponibili
+[08/11/2026 21:47:51] 07.04 - Esporto lista contenuto archivio (con .zip esplicito)
+[08/11/2026 21:47:51] 07.04 - 7z l OK (ERRORLEVEL=0)
+[08/11/2026 21:47:51] 07.04 - Lista esportata in c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_MSys_DF01_LISTA.TXT
+[08/11/2026 21:47:53] 08.00 - CHIAMO CRIPTA
+[08/11/2026 21:47:53] 08.01 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF01
+[08/11/2026 21:47:53] 08.01 - Eseguo Zip_N70_CRIPTA.bat
+[08/11/2026 21:47:59] 09.00 - SOSPENSIONE ED USCITA
+[08/11/2026 21:47:59] ==================== FINE BAT ====================
