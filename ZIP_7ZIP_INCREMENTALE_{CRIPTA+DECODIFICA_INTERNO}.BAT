@@ -370,10 +370,23 @@
 @REM           0 = OK, lista pulita, nessun warning
 @REM           1 = WARNING noto (tipico: righe // commento nella lista), archivio valido
 @REM          >=2 = ERRORE reale, interrompo il bat
+@REM         ESCLUSIONI (in qualsiasi sottocartella, -xr):
+@REM           BACKUP_*    cartelle di backup di Claude (es. MDB\BACKUP_CLAUDE_2026_11_14_...)
+@REM           Logs        cartelle dei log (es. MDB\Logs\)
+@REM           *_LOG.txt   file di log (git_LOG.txt, ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT, ...)
+@REM         Dopo l'aggiornamento "7z d" toglie le stesse voci se erano gia' nell'archivio
+@REM         (l'archivio decodificato al passo 06 puo' contenerle da salvataggi precedenti).
+@REM         Il "!" di -xr! viene mangiato dall'ENABLEDELAYEDEXPANSION: per questo
+@REM         il blocco gira con DISABLEDELAYEDEXPANSION e RC7Z viene riportato fuori.
 @REM ================================================================================================
-@CALL :LOG "07.02 - Eseguo: 7z u -tzip -r \"%OUT_ZIP%\" @%LISTA_FILE_S%"
-"C:\Program Files\7-Zip\7z.exe" u -tzip -r "%OUT_ZIP%" "@%LISTA_FILE_S%" >>"%ZIP_7ZIP_INCREMENTALE_FILE_LOG%" 2>&1
+@CALL :LOG "07.02 - Eseguo: 7z u -tzip -r \"%OUT_ZIP%\" @%LISTA_FILE_S% (esclusi BACKUP_*, Logs, *_LOG.txt)"
+@SETLOCAL DISABLEDELAYEDEXPANSION
+"C:\Program Files\7-Zip\7z.exe" u -tzip -r "%OUT_ZIP%" "@%LISTA_FILE_S%" -xr!BACKUP_* -xr!Logs -xr!*_LOG.txt >>"%ZIP_7ZIP_INCREMENTALE_FILE_LOG%" 2>&1
 @SET "RC7Z=%ERRORLEVEL%"
+@IF %RC7Z% LSS 2 (
+    "C:\Program Files\7-Zip\7z.exe" d "%OUT_ZIP%.zip" -r BACKUP_* Logs *_LOG.txt >>"%ZIP_7ZIP_INCREMENTALE_FILE_LOG%" 2>&1
+)
+@ENDLOCAL & SET "RC7Z=%RC7Z%"
 
 @IF %RC7Z% GEQ 2 (
     @CALL :LOG "07.02 - ERRORE 7-Zip! ERRORLEVEL=%RC7Z%"

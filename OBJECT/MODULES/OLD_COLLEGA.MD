@@ -94,7 +94,7 @@ Public Function GetTabellaPaths() As Collection
     TabellaPath.Add Array("GEST_MENU_Tb02_}-----------------------------------------------@", "c:\Casa\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSys_DF01\MDB\MENU_TB02_FUNZIONI.mdb")
 
     ' === Terzo gruppo ===
-    TabellaPath.Add Array("MSys_DF00_}----------------------------------------------------@", "c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSYS_N01_OGGETTI.mdb")
+    TabellaPath.Add Array("MSys_AA_PROJECT_E_MASTER_PLAN_}----------------------------------------------------@", "c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSYS_N01_OGGETTI.mdb")
     TabellaPath.Add Array("MSys_DF01_COMANDI", "c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSYS_N01_OGGETTI.mdb")
     TabellaPath.Add Array("MSys_DF01_COMANDI_TMP", "c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSYS_N01_OGGETTI.mdb")
     TabellaPath.Add Array("MSys_DF02_TIPO_OGGETTO", "c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS\MDB\MSYS_N01_OGGETTI.mdb")
